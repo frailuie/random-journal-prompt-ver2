@@ -23,7 +23,94 @@ header {
 }
 
 
-/* more media queries will go here eventually */
+@media screen and (max-width: 357px) {
+    header {
+        position: absolute;
+        left: 10%;
+        top: 3%;
+        color: rgb(243, 238, 238);
+    }
+
+    header h1 {
+        color: rgb(250, 243, 243);
+        background-color: rgba(0, 0, 0, 0.15);
+        padding: 10px;
+    }
+
+    header #timeTxt {
+        font-size: 1rem;
+        background-color: rgba(88, 87, 87, 0.361);
+        color: rgb(250, 243, 243);
+        padding: 4px;
+    }
+
+    .promptBox {
+        position: absolute;
+        color: rgb(246, 243, 243);
+        margin-top: -40px;
+    }
+    
+    .promptBox #journalPrompt {
+        text-align: justify;
+        font-size: 8px;
+        width: 60vw;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.137);
+    }
+
+    .promptBox button {
+        position: relative;
+        font-family: inherit;
+        font-weight: 200;
+        background-color: rgba(0, 0, 0, 0.22);
+        color: rgb(245, 237, 237);
+        left: 50%;
+        border: 1px solid transparent;
+    }
+
+    .promptBox .screamBox {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 810px) {
+
+    .promptBox {
+        position: absolute;
+        height: 300px;
+        width: 100%;
+        left: 30%;
+    }
+
+    .promptBox #journalPrompt {
+        text-align: justify;
+        font-size: 2rem;
+        line-height: 1.5;
+        max-width: 50rem;
+        padding: 20px;
+        margin: 8px;
+    }
+
+    header {
+        position: absolute;
+        left: 30%;
+        top: 12%;
+        color: rgb(243, 238, 238);
+    }
+
+    header h1 {
+        font-size: 4rem;
+        color: rgb(250, 243, 243);
+        padding: 10px;
+    }
+
+    header #timeTxt {
+        font-size: 1.8rem;
+        color: rgb(250, 243, 243);
+        padding: 4px;
+    }
+}
    
 
 
@@ -44,7 +131,7 @@ header #timeTxt {
 
 header span {
     font-weight: 100;
-    color: rgb(148, 143, 143)16, 214, 214);
+    color: rgb(148, 143, 143);
     display: inline-block;
 }
 

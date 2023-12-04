@@ -303,7 +303,7 @@ function formatDay(date){
 function formatTime(date){
     let hours = date.getHours();
     let minutes = date.getMinutes();
-    let dayOrNight = hours > 12 ? "pm" : "am";
+    let dayOrNight = hours >= 12 ? "pm" : "am";
     hours = (hours % 12) || 12;
 
     minutes = addZero(minutes);
