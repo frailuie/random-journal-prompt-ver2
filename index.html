@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,500;0,800;1,100&display=swap" rel="stylesheet">
+    <title>random journal prompt generator | frailuie</title>
+</head>
+<body>
+    <div class="container">
+        <video src="background.flowers.mp4" poster="Screenshot 2023-12-01 122949.png" autoplay loop playsinline muted></video>
+
+        <header>
+            <h1><label id="dateTxt">date</label></h1> <label id="timeTxt">time</label> | <span> by frailuie</span> | <span class="shareBtns"><a href="https://twitter.com/intent/tweet?url=&text=&via="https://frailuie.github.io/random-journal-prompt-ver2" target="_blank" rel="nofollow noopener"><i class='bx bxl-twitter'></i></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https://frailuie.github.io/random-journal-prompt-ver2/" target="_blank" rel="nofollow noopener"><i class='bx bxl-facebook' ></i></a>  <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://frailuie.github.io/random-journal-prompt-ver2/&title=&caption=journal+entry+#1" target="_blank" rel="nofollow noopener"><i class='bx bxl-tumblr' ></i></a></span>
+        </header>
+
+        <div class="promptBox">
+            <section id="journalPrompt">
+                If you need any inspiration for today's entry, click the button below
+            </section>
+            <button onclick="newPrompt()" id="clickMe"><i class='bx bx-revision'></i></button>
+            <div class="screamBox">
+                <textarea type="text" id="ventBox" placeholder=" use this space to get it off your chest "></textarea>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

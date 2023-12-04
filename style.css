@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
+}
+
+
+.container video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+header {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 58%;
+    transform: translate(-50%. -100%);
+    color: white;
+}
+
+
+/* more media queries will go here eventually */
+   
+
+
+header h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: .12rch;
+}
+
+
+header #timeTxt {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+
+header span {
+    font-weight: 100;
+    color: rgb(148, 143, 143)16, 214, 214);
+    display: inline-block;
+}
+
+
+header .shareBtns a {
+    color: rgb(252, 253, 255);
+    font-size: .969rem;
+    font-weight: 400;
+}
+
+header .shareBtns a:hover {
+    color: rgb(255, 110, 180);
+    transition: 0.5s ease;
+}
+
+.promptBox {
+    position: absolute;
+    color: rgb(246, 243, 243);
+    font-weight: 300;
+    bottom: 4%;
+    width: 50%;
+    top: 30%;
+    left: 15%;
+    right: 0;
+}
+
+.promptBox #journalPrompt {
+    text-align: justify;
+    font-size: 1.96rem;
+    max-width: 30rem;
+    line-height: 1.10;
+    padding: 10px;
+    margin: 8px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1020px) {
+    .promptBox #journalPrompt {
+        text-align: justify;
+        font-size: 1.9rem;
+        max-width: 23rem;
+        line-height: 1;
+        padding: 9px;
+        margin: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+.promptBox button {
+    position: relative;
+    font-family: inherit;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.22);
+    color: rgb(245, 237, 237);
+    bottom: -1%;
+    left: 30%;
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid transparent;
+}
+
+.promptBox button i {
+    font-size: 1.1rem;
+}
+
+.promptBox button:hover {
+    background-color: rgb(35, 31, 31);
+    border-color: rgb(249, 242, 242);
+    transition: 0.7s ease;
+}
+
+.promptBox .screamBox {
+    position: relative;
+    border: 1px solid transparent;
+    top: 1%;
+    left: 3%;
+    margin: 8px;
+    padding: 7px;
+    height: 90px;
+    width: 450px;
+}
+
+.promptBox #ventBox {
+    height: 90px;
+    width: 450px;
+    padding: 8px;
+    background-color: rgba(45, 41, 41, 0.688);
+    color: rgb(247, 239, 239);
+    text-align: center;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+
+
+
