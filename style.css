@@ -72,7 +72,7 @@ header {
 }
 
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 835px) {
 
     .promptBox {
         position: absolute;
@@ -129,7 +129,7 @@ header #timeTxt {
 
 header span {
     font-weight: 100;
-    color: rgb(148, 143, 143);
+    color: rgb(197, 190, 190);
     display: inline-block;
 }
 
