@@ -23,7 +23,7 @@ header {
 }
 
 
-@media screen and (max-width: 357px) {
+@media screen and (max-width: 375px) {
     header {
         position: absolute;
         left: 10%;
