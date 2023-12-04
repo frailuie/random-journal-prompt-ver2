@@ -9,3 +9,5 @@ I felt I wouldn't be able to make something I liked until my understanding of CS
 >- **More prompts**!
 >- Improved layout
 >- Added share buttons for social media
+>- Fixed a time bug (displaying am instead of pm)
+>- Attempted responsive mobile design
