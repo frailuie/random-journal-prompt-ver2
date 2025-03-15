@@ -1,4 +1,4 @@
-# random-journal-prompt-ver2
+<s># random-journal-prompt-ver2
 Random Journal Prompt (Ver. 2)
 
 I felt I wouldn't be able to make something I liked until my understanding of CSS and JS got a little better but I kept chipping away at this for about a week. I'm finally 75% satisfied! I'd like to add more accessibility options and improve the CSS more, but for now I will love it and leave it~
@@ -10,7 +10,7 @@ I felt I wouldn't be able to make something I liked until my understanding of CS
 >- Improved layout
 >- Added share buttons for social media
 >- Fixed a time bug (displaying am instead of pm)
->- Attempted responsive mobile design
+>- Attempted responsive mobile design</s>
 
 # random journal prompt (ver. 3)
 
